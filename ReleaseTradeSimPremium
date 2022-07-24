@@ -1,0 +1,1677 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Premuim = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Sniper = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local Release = Instance.new("TextButton")
+local TextButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local WebookChannel = Instance.new("TextButton")
+local TextButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local Settings = Instance.new("TextButton")
+local TextButton_Roundify_12px_4 = Instance.new("ImageLabel")
+local TradeBot = Instance.new("TextButton")
+local TextButton_Roundify_12px_5 = Instance.new("ImageLabel")
+local HatGui = Instance.new("TextButton")
+local TextButton_Roundify_12px_6 = Instance.new("ImageLabel")
+local ItemSniper = Instance.new("ImageLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local Title = Instance.new("TextLabel")
+local LiveText = Instance.new("TextLabel")
+local ToggleButton = Instance.new("TextButton")
+local TextButton_Roundify_12px_7 = Instance.new("ImageLabel")
+local Output = Instance.new("TextBox")
+local TextBox_Roundify_12px = Instance.new("ImageLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local Close = Instance.new("TextButton")
+local TextButton_Roundify_12px_8 = Instance.new("ImageLabel")
+local ReleaseBot = Instance.new("ImageLabel")
+local Title_2 = Instance.new("TextLabel")
+local LiveText_2 = Instance.new("TextLabel")
+local ToggleButton_2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_9 = Instance.new("ImageLabel")
+local Output_2 = Instance.new("TextBox")
+local TextBox_Roundify_12px_2 = Instance.new("ImageLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local Close_2 = Instance.new("TextButton")
+local TextButton_Roundify_12px_10 = Instance.new("ImageLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local WebhookGUI = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local Title_3 = Instance.new("TextLabel")
+local LiveText_3 = Instance.new("TextLabel")
+local ToggleButton_3 = Instance.new("TextButton")
+local TextButton_Roundify_12px_11 = Instance.new("ImageLabel")
+local Output_3 = Instance.new("TextBox")
+local TextBox_Roundify_12px_3 = Instance.new("ImageLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local Close_3 = Instance.new("TextButton")
+local TextButton_Roundify_12px_12 = Instance.new("ImageLabel")
+local SettingsGUI = Instance.new("ImageLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local Title_4 = Instance.new("TextLabel")
+local Close_4 = Instance.new("TextButton")
+local TextButton_Roundify_12px_13 = Instance.new("ImageLabel")
+local Max = Instance.new("TextLabel")
+local Output_4 = Instance.new("TextBox")
+local TextBox_Roundify_12px_4 = Instance.new("ImageLabel")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local Output_5 = Instance.new("TextBox")
+local TextBox_Roundify_12px_5 = Instance.new("ImageLabel")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local Max_2 = Instance.new("TextLabel")
+local Save = Instance.new("TextButton")
+local TextButton_Roundify_12px_14 = Instance.new("ImageLabel")
+local Max_3 = Instance.new("TextLabel")
+local Output_6 = Instance.new("TextBox")
+local TextBox_Roundify_12px_6 = Instance.new("ImageLabel")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local Output_7 = Instance.new("TextBox")
+local TextBox_Roundify_12px_7 = Instance.new("ImageLabel")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local Max_4 = Instance.new("TextLabel")
+local Title_5 = Instance.new("TextLabel")
+local AntiAFk = Instance.new("ImageLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local Title_6 = Instance.new("TextLabel")
+local Close_5 = Instance.new("TextButton")
+local TextButton_Roundify_12px_15 = Instance.new("ImageLabel")
+local TradeBot_2 = Instance.new("ImageLabel")
+local Title_7 = Instance.new("TextLabel")
+local LiveText_4 = Instance.new("TextLabel")
+local ToggleButton_4 = Instance.new("TextButton")
+local TextButton_Roundify_12px_16 = Instance.new("ImageLabel")
+local Output_8 = Instance.new("TextBox")
+local TextBox_Roundify_12px_8 = Instance.new("ImageLabel")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local Close_6 = Instance.new("TextButton")
+local TextButton_Roundify_12px_17 = Instance.new("ImageLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local HatGui_2 = Instance.new("ImageLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local Title_8 = Instance.new("TextLabel")
+local ToggleButton_5 = Instance.new("TextButton")
+local TextButton_Roundify_12px_18 = Instance.new("ImageLabel")
+local Output_9 = Instance.new("TextBox")
+local TextBox_Roundify_12px_9 = Instance.new("ImageLabel")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local Close_7 = Instance.new("TextButton")
+local TextButton_Roundify_12px_19 = Instance.new("ImageLabel")
+
+--Properties:
+
+Premuim.Name = "Premuim"
+Premuim.Parent = game.CoreGui
+
+
+Main.Name = "Main"
+Main.Parent = Premuim
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.00956534687, 0, 0.143491656, 0)
+Main.Size = UDim2.new(0, 168, 0, 286)
+Main.Image = "rbxassetid://3570695787"
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(100, 100, 100, 100)
+Main.SliceScale = 0.120
+Main.Draggable = true
+Main.Active = true
+Main.Selectable = true
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.Position = UDim2.new(0.0892857164, 0, 0.028070176, 0)
+TextLabel.Size = UDim2.new(0, 138, 0, 54)
+TextLabel.Font = Enum.Font.Nunito
+TextLabel.Text = "<b>Premuim Trade Sim Script</b>"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.RichText = true
+
+Sniper.Name = "Sniper"
+Sniper.Parent = Main
+Sniper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sniper.BackgroundTransparency = 1.000
+Sniper.BorderSizePixel = 0
+Sniper.Position = UDim2.new(0.0892857164, 0, 0.232250482, 0)
+Sniper.Size = UDim2.new(0, 138, 0, 42)
+Sniper.ZIndex = 2
+Sniper.Font = Enum.Font.Nunito
+Sniper.Text = "Snipe Bot"
+Sniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sniper.TextSize = 28.000
+Sniper.TextWrapped = true
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = Sniper
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageTransparency = 0.800
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+Release.Name = "Release"
+Release.Parent = Main
+Release.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Release.BackgroundTransparency = 1.000
+Release.BorderSizePixel = 0
+Release.Position = UDim2.new(0.0892857164, 0, 0.353914648, 0)
+Release.Size = UDim2.new(0, 138, 0, 42)
+Release.ZIndex = 2
+Release.Font = Enum.Font.Nunito
+Release.Text = "Release Bot"
+Release.TextColor3 = Color3.fromRGB(255, 255, 255)
+Release.TextSize = 28.000
+Release.TextWrapped = true
+
+TextButton_Roundify_12px_2.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_2.Parent = Release
+TextButton_Roundify_12px_2.Active = true
+TextButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_2.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_2.Selectable = true
+TextButton_Roundify_12px_2.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_2.ImageTransparency = 0.800
+TextButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_2.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient.Rotation = 55
+UIGradient.Parent = Main
+
+WebookChannel.Name = "WebookChannel"
+WebookChannel.Parent = Main
+WebookChannel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WebookChannel.BackgroundTransparency = 1.000
+WebookChannel.BorderSizePixel = 0
+WebookChannel.Position = UDim2.new(0.0892857164, 0, 0.729405105, 0)
+WebookChannel.Size = UDim2.new(0, 138, 0, 42)
+WebookChannel.ZIndex = 2
+WebookChannel.Font = Enum.Font.Nunito
+WebookChannel.Text = "Webooks"
+WebookChannel.TextColor3 = Color3.fromRGB(255, 255, 255)
+WebookChannel.TextSize = 29.000
+WebookChannel.TextWrapped = true
+
+TextButton_Roundify_12px_3.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_3.Parent = WebookChannel
+TextButton_Roundify_12px_3.Active = true
+TextButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_3.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_3.Selectable = true
+TextButton_Roundify_12px_3.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_3.ImageTransparency = 0.800
+TextButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_3.SliceScale = 0.120
+
+Settings.Name = "Settings"
+Settings.Parent = Main
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings.BackgroundTransparency = 1.000
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(0.0892857164, 0, 0.608721018, 0)
+Settings.Size = UDim2.new(0, 138, 0, 42)
+Settings.ZIndex = 2
+Settings.Font = Enum.Font.Nunito
+Settings.Text = "Settings"
+Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings.TextSize = 28.000
+Settings.TextWrapped = true
+
+TextButton_Roundify_12px_4.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_4.Parent = Settings
+TextButton_Roundify_12px_4.Active = true
+TextButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_4.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_4.Selectable = true
+TextButton_Roundify_12px_4.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_4.ImageTransparency = 0.800
+TextButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_4.SliceScale = 0.120
+
+TradeBot.Name = "TradeBot"
+TradeBot.Parent = Main
+TradeBot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TradeBot.BackgroundTransparency = 1.000
+TradeBot.BorderSizePixel = 0
+TradeBot.Position = UDim2.new(0.0892857164, 0, 0.476292253, 0)
+TradeBot.Size = UDim2.new(0, 138, 0, 42)
+TradeBot.ZIndex = 2
+TradeBot.Font = Enum.Font.Nunito
+TradeBot.Text = "Trade Bot"
+TradeBot.TextColor3 = Color3.fromRGB(255, 255, 255)
+TradeBot.TextSize = 28.000
+TradeBot.TextWrapped = true
+
+TextButton_Roundify_12px_5.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_5.Parent = TradeBot
+TextButton_Roundify_12px_5.Active = true
+TextButton_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_5.Selectable = true
+TextButton_Roundify_12px_5.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_5.ImageTransparency = 0.800
+TextButton_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_5.SliceScale = 0.120
+
+HatGui.Name = "HatGui"
+HatGui.Parent = Main
+HatGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HatGui.BackgroundTransparency = 1.000
+HatGui.BorderSizePixel = 0
+HatGui.Position = UDim2.new(0.0892857164, 0, 0.858775795, 0)
+HatGui.Size = UDim2.new(0, 138, 0, 42)
+HatGui.ZIndex = 2
+HatGui.Font = Enum.Font.Nunito
+HatGui.Text = "Hat Gui"
+HatGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+HatGui.TextSize = 29.000
+HatGui.TextWrapped = true
+
+TextButton_Roundify_12px_6.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_6.Parent = HatGui
+TextButton_Roundify_12px_6.Active = true
+TextButton_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_6.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_6.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_6.Selectable = true
+TextButton_Roundify_12px_6.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_6.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_6.ImageTransparency = 0.800
+TextButton_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_6.SliceScale = 0.120
+
+ItemSniper.Name = "ItemSniper"
+ItemSniper.Parent = Premuim
+ItemSniper.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ItemSniper.BackgroundTransparency = 1.000
+ItemSniper.Position = UDim2.new(0.749310493, 0, 0.671283305, 0)
+ItemSniper.Size = UDim2.new(0, 358, 0, 160)
+ItemSniper.Image = "rbxassetid://3570695787"
+ItemSniper.ScaleType = Enum.ScaleType.Slice
+ItemSniper.SliceCenter = Rect.new(100, 100, 100, 100)
+ItemSniper.SliceScale = 0.120
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient_2.Rotation = 55
+UIGradient_2.Parent = ItemSniper
+
+Title.Name = "Title"
+Title.Parent = ItemSniper
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title.Position = UDim2.new(-0.103451692, 0, -0.109429747, 0)
+Title.Size = UDim2.new(0, 260, 0, 54)
+Title.Font = Enum.Font.Nunito
+Title.Text = "<b>Premuim Item Sniper</b>"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 24.000
+Title.TextWrapped = true
+Title.RichText = true
+
+LiveText.Name = "LiveText"
+LiveText.Parent = ItemSniper
+LiveText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LiveText.BackgroundTransparency = 1.000
+LiveText.BorderColor3 = Color3.fromRGB(27, 42, 53)
+LiveText.Position = UDim2.new(0.427274585, 0, -0.109429747, 0)
+LiveText.Size = UDim2.new(0, 260, 0, 54)
+LiveText.Font = Enum.Font.Nunito
+LiveText.Text = "Offline"
+LiveText.TextColor3 = Color3.fromRGB(255, 255, 255)
+LiveText.TextSize = 24.000
+LiveText.TextWrapped = true
+
+ToggleButton.Name = "ToggleButton"
+ToggleButton.Parent = ItemSniper
+ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton.BackgroundTransparency = 1.000
+ToggleButton.BorderSizePixel = 0
+ToggleButton.Position = UDim2.new(0.603252172, 0, 0.756249845, 0)
+ToggleButton.Size = UDim2.new(0, 134, 0, 39)
+ToggleButton.ZIndex = 2
+ToggleButton.Font = Enum.Font.Nunito
+ToggleButton.Text = "Item Sniper | OFF"
+ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton.TextSize = 22.000
+ToggleButton.TextWrapped = true
+
+TextButton_Roundify_12px_7.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_7.Parent = ToggleButton
+TextButton_Roundify_12px_7.Active = true
+TextButton_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_7.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_7.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_7.Selectable = true
+TextButton_Roundify_12px_7.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_7.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_7.ImageTransparency = 0.800
+TextButton_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_7.SliceScale = 0.120
+
+Output.Name = "Output"
+Output.Parent = ItemSniper
+Output.AnchorPoint = Vector2.new(0.5, 0.5)
+Output.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output.BackgroundTransparency = 1.000
+Output.BorderSizePixel = 0
+Output.Position = UDim2.new(0.5, 0, 0.5, 0)
+Output.Size = UDim2.new(0, 319, 0, 70)
+Output.ZIndex = 2
+Output.Font = Enum.Font.Nunito
+Output.PlaceholderText = "Output for Item Sniper"
+Output.Text = ""
+Output.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output.TextScaled = true
+Output.TextSize = 30.000
+Output.TextWrapped = true
+
+TextBox_Roundify_12px.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px.Parent = Output
+TextBox_Roundify_12px.Active = true
+TextBox_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px.BackgroundTransparency = 1.000
+TextBox_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px.Selectable = true
+TextBox_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px.SliceScale = 0.120
+
+UITextSizeConstraint.Parent = Output
+UITextSizeConstraint.MaxTextSize = 30
+
+Close.Name = "Close"
+Close.Parent = ItemSniper
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.0222466346, 0, 0.756250024, 0)
+Close.Size = UDim2.new(0, 83, 0, 39)
+Close.ZIndex = 2
+Close.Font = Enum.Font.Nunito
+Close.Text = "Hide"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 22.000
+Close.TextWrapped = true
+
+TextButton_Roundify_12px_8.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_8.Parent = Close
+TextButton_Roundify_12px_8.Active = true
+TextButton_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_8.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_8.Selectable = true
+TextButton_Roundify_12px_8.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_8.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_8.ImageTransparency = 0.800
+TextButton_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_8.SliceScale = 0.120
+
+ReleaseBot.Name = "ReleaseBot"
+ReleaseBot.Parent = Premuim
+ReleaseBot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ReleaseBot.BackgroundTransparency = 1.000
+ReleaseBot.Position = UDim2.new(0.749310493, 0, 0.0781796128, 0)
+ReleaseBot.Size = UDim2.new(0, 358, 0, 160)
+ReleaseBot.Image = "rbxassetid://3570695787"
+ReleaseBot.ScaleType = Enum.ScaleType.Slice
+ReleaseBot.SliceCenter = Rect.new(100, 100, 100, 100)
+ReleaseBot.SliceScale = 0.120
+
+Title_2.Name = "Title"
+Title_2.Parent = ReleaseBot
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_2.Position = UDim2.new(-0.103451692, 0, -0.0844297484, 0)
+Title_2.Size = UDim2.new(0, 260, 0, 54)
+Title_2.Font = Enum.Font.Nunito
+Title_2.Text = "<b>Premuim Release Bot</b>"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 24.000
+Title_2.TextWrapped = true
+Title_2.RichText = true
+
+LiveText_2.Name = "LiveText"
+LiveText_2.Parent = ReleaseBot
+LiveText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LiveText_2.BackgroundTransparency = 1.000
+LiveText_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+LiveText_2.Position = UDim2.new(0.427274585, 0, -0.0844297484, 0)
+LiveText_2.Size = UDim2.new(0, 260, 0, 54)
+LiveText_2.Font = Enum.Font.Nunito
+LiveText_2.Text = "Offline"
+LiveText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LiveText_2.TextSize = 24.000
+LiveText_2.TextWrapped = true
+
+ToggleButton_2.Name = "ToggleButton"
+ToggleButton_2.Parent = ReleaseBot
+ToggleButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_2.BackgroundTransparency = 1.000
+ToggleButton_2.BorderSizePixel = 0
+ToggleButton_2.Position = UDim2.new(0.603252172, 0, 0.756249845, 0)
+ToggleButton_2.Size = UDim2.new(0, 134, 0, 39)
+ToggleButton_2.ZIndex = 2
+ToggleButton_2.Font = Enum.Font.Nunito
+ToggleButton_2.Text = "Item Sniper | OFF"
+ToggleButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_2.TextSize = 22.000
+ToggleButton_2.TextWrapped = true
+
+TextButton_Roundify_12px_9.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_9.Parent = ToggleButton_2
+TextButton_Roundify_12px_9.Active = true
+TextButton_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_9.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_9.Selectable = true
+TextButton_Roundify_12px_9.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_9.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_9.ImageTransparency = 0.800
+TextButton_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_9.SliceScale = 0.120
+
+Output_2.Name = "Output"
+Output_2.Parent = ReleaseBot
+Output_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_2.BackgroundTransparency = 1.000
+Output_2.BorderSizePixel = 0
+Output_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Output_2.Size = UDim2.new(0, 319, 0, 70)
+Output_2.ZIndex = 2
+Output_2.Font = Enum.Font.Nunito
+Output_2.PlaceholderText = "Output for Item Sniper"
+Output_2.Text = ""
+Output_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_2.TextScaled = true
+Output_2.TextSize = 30.000
+Output_2.TextWrapped = true
+
+TextBox_Roundify_12px_2.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_2.Parent = Output_2
+TextBox_Roundify_12px_2.Active = true
+TextBox_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_2.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px_2.Selectable = true
+TextBox_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_2.SliceScale = 0.120
+
+UITextSizeConstraint_2.Parent = Output_2
+UITextSizeConstraint_2.MaxTextSize = 30
+
+Close_2.Name = "Close"
+Close_2.Parent = ReleaseBot
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.BorderSizePixel = 0
+Close_2.Position = UDim2.new(0.0222466346, 0, 0.756250024, 0)
+Close_2.Size = UDim2.new(0, 83, 0, 39)
+Close_2.ZIndex = 2
+Close_2.Font = Enum.Font.Nunito
+Close_2.Text = "Hide"
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.TextSize = 22.000
+Close_2.TextWrapped = true
+
+TextButton_Roundify_12px_10.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_10.Parent = Close_2
+TextButton_Roundify_12px_10.Active = true
+TextButton_Roundify_12px_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_10.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_10.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_10.Selectable = true
+TextButton_Roundify_12px_10.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_10.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_10.ImageTransparency = 0.800
+TextButton_Roundify_12px_10.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_10.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_10.SliceScale = 0.120
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient_3.Rotation = 55
+UIGradient_3.Parent = ReleaseBot
+
+WebhookGUI.Name = "WebhookGUI"
+WebhookGUI.Parent = Premuim
+WebhookGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WebhookGUI.BackgroundTransparency = 1.000
+WebhookGUI.Position = UDim2.new(0.00941479206, 0, 0.671283305, 0)
+WebhookGUI.Size = UDim2.new(0, 358, 0, 160)
+WebhookGUI.Image = "rbxassetid://3570695787"
+WebhookGUI.ScaleType = Enum.ScaleType.Slice
+WebhookGUI.SliceCenter = Rect.new(100, 100, 100, 100)
+WebhookGUI.SliceScale = 0.120
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient_4.Rotation = 55
+UIGradient_4.Parent = WebhookGUI
+
+Title_3.Name = "Title"
+Title_3.Parent = WebhookGUI
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_3.Position = UDim2.new(-0.167697504, 0, -0.109429747, 0)
+Title_3.Size = UDim2.new(0, 260, 0, 54)
+Title_3.Font = Enum.Font.Nunito
+Title_3.Text = "<b>Webook Setup</b>"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 24.000
+Title_3.TextWrapped = true
+Title_3.RichText = true
+
+LiveText_3.Name = "LiveText"
+LiveText_3.Parent = WebhookGUI
+LiveText_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LiveText_3.BackgroundTransparency = 1.000
+LiveText_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+LiveText_3.Position = UDim2.new(0.427274585, 0, -0.109429747, 0)
+LiveText_3.Size = UDim2.new(0, 260, 0, 54)
+LiveText_3.Font = Enum.Font.Nunito
+LiveText_3.Text = "Offline"
+LiveText_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+LiveText_3.TextSize = 24.000
+LiveText_3.TextWrapped = true
+
+ToggleButton_3.Name = "ToggleButton"
+ToggleButton_3.Parent = WebhookGUI
+ToggleButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_3.BackgroundTransparency = 1.000
+ToggleButton_3.BorderSizePixel = 0
+ToggleButton_3.Position = UDim2.new(0.603252172, 0, 0.756249845, 0)
+ToggleButton_3.Size = UDim2.new(0, 134, 0, 39)
+ToggleButton_3.ZIndex = 2
+ToggleButton_3.Font = Enum.Font.Nunito
+ToggleButton_3.Text = "Test Webook"
+ToggleButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_3.TextSize = 22.000
+ToggleButton_3.TextWrapped = true
+
+TextButton_Roundify_12px_11.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_11.Parent = ToggleButton_3
+TextButton_Roundify_12px_11.Active = true
+TextButton_Roundify_12px_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_11.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_11.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_11.Selectable = true
+TextButton_Roundify_12px_11.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_11.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_11.ImageTransparency = 0.800
+TextButton_Roundify_12px_11.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_11.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_11.SliceScale = 0.120
+
+Output_3.Name = "Output"
+Output_3.Parent = WebhookGUI
+Output_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_3.BackgroundTransparency = 1.000
+Output_3.BorderSizePixel = 0
+Output_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Output_3.Size = UDim2.new(0, 319, 0, 70)
+Output_3.ZIndex = 2
+Output_3.Font = Enum.Font.Nunito
+Output_3.PlaceholderText = "Paste Webhook Here"
+Output_3.Text = ""
+Output_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_3.TextSize = 30.000
+Output_3.TextWrapped = true
+
+TextBox_Roundify_12px_3.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_3.Parent = Output_3
+TextBox_Roundify_12px_3.Active = true
+TextBox_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_3.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px_3.Selectable = true
+TextBox_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_3.SliceScale = 0.120
+
+UITextSizeConstraint_3.Parent = Output_3
+UITextSizeConstraint_3.MaxTextSize = 30
+
+Close_3.Name = "Close"
+Close_3.Parent = WebhookGUI
+Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.BackgroundTransparency = 1.000
+Close_3.BorderSizePixel = 0
+Close_3.Position = UDim2.new(0.0222466346, 0, 0.756250024, 0)
+Close_3.Size = UDim2.new(0, 83, 0, 39)
+Close_3.ZIndex = 2
+Close_3.Font = Enum.Font.Nunito
+Close_3.Text = "Hide"
+Close_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.TextSize = 22.000
+Close_3.TextWrapped = true
+
+TextButton_Roundify_12px_12.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_12.Parent = Close_3
+TextButton_Roundify_12px_12.Active = true
+TextButton_Roundify_12px_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_12.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_12.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_12.Selectable = true
+TextButton_Roundify_12px_12.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_12.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_12.ImageTransparency = 0.800
+TextButton_Roundify_12px_12.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_12.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_12.SliceScale = 0.120
+
+SettingsGUI.Name = "SettingsGUI"
+SettingsGUI.Parent = Premuim
+SettingsGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsGUI.BackgroundTransparency = 1.000
+SettingsGUI.Position = UDim2.new(0.130483061, 0, 0.153692067, 0)
+SettingsGUI.Size = UDim2.new(0, 342, 0, 278)
+SettingsGUI.Image = "rbxassetid://3570695787"
+SettingsGUI.ScaleType = Enum.ScaleType.Slice
+SettingsGUI.SliceCenter = Rect.new(100, 100, 100, 100)
+SettingsGUI.SliceScale = 0.120
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient_5.Rotation = 55
+UIGradient_5.Parent = SettingsGUI
+
+Title_4.Name = "Title"
+Title_4.Parent = SettingsGUI
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_4.Position = UDim2.new(-0.16439341, 0, -0.0455916598, 0)
+Title_4.Size = UDim2.new(0, 260, 0, 54)
+Title_4.Font = Enum.Font.Nunito
+Title_4.Text = "<b>Settings</b>"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextSize = 24.000
+Title_4.TextWrapped = true
+
+Close_4.Name = "Close"
+Close_4.Parent = SettingsGUI
+Close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_4.BackgroundTransparency = 1.000
+Close_4.BorderSizePixel = 0
+Close_4.Position = UDim2.new(0.0422466286, 0, 0.846446157, 0)
+Close_4.Size = UDim2.new(0, 65, 0, 39)
+Close_4.ZIndex = 2
+Close_4.Font = Enum.Font.Nunito
+Close_4.Text = "Hide"
+Close_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_4.TextSize = 22.000
+Close_4.TextWrapped = true
+
+TextButton_Roundify_12px_13.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_13.Parent = Close_4
+TextButton_Roundify_12px_13.Active = true
+TextButton_Roundify_12px_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_13.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_13.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_13.Selectable = true
+TextButton_Roundify_12px_13.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_13.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_13.ImageTransparency = 0.800
+TextButton_Roundify_12px_13.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_13.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_13.SliceScale = 0.120
+
+Max.Name = "Max"
+Max.Parent = SettingsGUI
+Max.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Max.BackgroundTransparency = 1.000
+Max.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Max.Position = UDim2.new(-0.162697509, 0, 0.0606151596, 0)
+Max.Size = UDim2.new(0, 260, 0, 54)
+Max.Font = Enum.Font.Nunito
+Max.Text = "Max Snipe Price"
+Max.TextColor3 = Color3.fromRGB(255, 255, 255)
+Max.TextSize = 24.000
+Max.TextWrapped = true
+
+Output_4.Name = "Output"
+Output_4.Parent = SettingsGUI
+Output_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_4.BackgroundTransparency = 1.000
+Output_4.BorderSizePixel = 0
+Output_4.Position = UDim2.new(0.21355398, 0, 0.328593194, 0)
+Output_4.Size = UDim2.new(0, 139, 0, 41)
+Output_4.ZIndex = 2
+Output_4.Font = Enum.Font.Nunito
+Output_4.PlaceholderText = "Value"
+Output_4.Text = ""
+Output_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_4.TextSize = 30.000
+Output_4.TextWrapped = true
+
+TextBox_Roundify_12px_4.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_4.Parent = Output_4
+TextBox_Roundify_12px_4.Active = true
+TextBox_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_4.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_4.Position = UDim2.new(0.488099903, 0, 0.5, 0)
+TextBox_Roundify_12px_4.Selectable = true
+TextBox_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_4.SliceScale = 0.120
+
+UITextSizeConstraint_4.Parent = Output_4
+UITextSizeConstraint_4.MaxTextSize = 30
+
+Output_5.Name = "Output"
+Output_5.Parent = SettingsGUI
+Output_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_5.BackgroundTransparency = 1.000
+Output_5.BorderSizePixel = 0
+Output_5.Position = UDim2.new(0.241703674, 0, 0.627605736, 0)
+Output_5.Size = UDim2.new(0, 156, 0, 41)
+Output_5.ZIndex = 2
+Output_5.Font = Enum.Font.Nunito
+Output_5.PlaceholderText = "True / False"
+Output_5.Text = ""
+Output_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_5.TextSize = 30.000
+Output_5.TextWrapped = true
+
+TextBox_Roundify_12px_5.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_5.Parent = Output_5
+TextBox_Roundify_12px_5.Active = true
+TextBox_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_5.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_5.Position = UDim2.new(0.474811375, 0, 0.5, 0)
+TextBox_Roundify_12px_5.Selectable = true
+TextBox_Roundify_12px_5.Size = UDim2.new(0.940273881, 0, 1, 0)
+TextBox_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_5.SliceScale = 0.120
+
+UITextSizeConstraint_5.Parent = Output_5
+UITextSizeConstraint_5.MaxTextSize = 30
+
+Max_2.Name = "Max"
+Max_2.Parent = SettingsGUI
+Max_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Max_2.BackgroundTransparency = 1.000
+Max_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Max_2.Position = UDim2.new(0.00481713563, 0, 0.381210417, 0)
+Max_2.Size = UDim2.new(0, 194, 0, 54)
+Max_2.Font = Enum.Font.Nunito
+Max_2.Text = "Max Buy new releases?"
+Max_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Max_2.TextSize = 24.000
+Max_2.TextWrapped = true
+
+Save.Name = "Save"
+Save.Parent = SettingsGUI
+Save.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Save.BackgroundTransparency = 1.000
+Save.BorderSizePixel = 0
+Save.Position = UDim2.new(0.674556494, 0, 0.780132174, 0)
+Save.Size = UDim2.new(0, 103, 0, 66)
+Save.ZIndex = 2
+Save.Font = Enum.Font.Nunito
+Save.Text = "Save"
+Save.TextColor3 = Color3.fromRGB(255, 255, 255)
+Save.TextSize = 22.000
+Save.TextWrapped = true
+
+TextButton_Roundify_12px_14.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_14.Parent = Save
+TextButton_Roundify_12px_14.Active = true
+TextButton_Roundify_12px_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_14.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_14.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_14.Selectable = true
+TextButton_Roundify_12px_14.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_14.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_14.ImageTransparency = 0.800
+TextButton_Roundify_12px_14.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_14.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_14.SliceScale = 0.120
+
+Max_3.Name = "Max"
+Max_3.Parent = SettingsGUI
+Max_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Max_3.BackgroundTransparency = 1.000
+Max_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Max_3.Position = UDim2.new(0.44256565, 0, 0.0678094029, 0)
+Max_3.Size = UDim2.new(0, 195, 0, 54)
+Max_3.Font = Enum.Font.Nunito
+Max_3.Text = "Trade Bot Queue Max Size"
+Max_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Max_3.TextSize = 24.000
+Max_3.TextWrapped = true
+
+Output_6.Name = "Output"
+Output_6.Parent = SettingsGUI
+Output_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_6.BackgroundTransparency = 1.000
+Output_6.BorderSizePixel = 0
+Output_6.Position = UDim2.new(0.725249887, 0, 0.335787445, 0)
+Output_6.Size = UDim2.new(0, 139, 0, 41)
+Output_6.ZIndex = 2
+Output_6.Font = Enum.Font.Nunito
+Output_6.PlaceholderText = "Value"
+Output_6.Text = ""
+Output_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_6.TextSize = 30.000
+Output_6.TextWrapped = true
+
+TextBox_Roundify_12px_6.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_6.Parent = Output_6
+TextBox_Roundify_12px_6.Active = true
+TextBox_Roundify_12px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_6.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_6.Position = UDim2.new(0.488099903, 0, 0.5, 0)
+TextBox_Roundify_12px_6.Selectable = true
+TextBox_Roundify_12px_6.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_6.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_6.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_6.SliceScale = 0.120
+
+UITextSizeConstraint_6.Parent = Output_6
+UITextSizeConstraint_6.MaxTextSize = 30
+
+Output_7.Name = "Output"
+Output_7.Parent = SettingsGUI
+Output_7.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_7.BackgroundTransparency = 1.000
+Output_7.BorderSizePixel = 0
+Output_7.Position = UDim2.new(0.725249887, 0, 0.70629102, 0)
+Output_7.Size = UDim2.new(0, 139, 0, 41)
+Output_7.ZIndex = 2
+Output_7.Font = Enum.Font.Nunito
+Output_7.PlaceholderText = "Value"
+Output_7.Text = ""
+Output_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_7.TextSize = 30.000
+Output_7.TextWrapped = true
+
+TextBox_Roundify_12px_7.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_7.Parent = Output_7
+TextBox_Roundify_12px_7.Active = true
+TextBox_Roundify_12px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_7.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_7.Position = UDim2.new(0.488099903, 0, 0.5, 0)
+TextBox_Roundify_12px_7.Selectable = true
+TextBox_Roundify_12px_7.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_7.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_7.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_7.SliceScale = 0.120
+
+UITextSizeConstraint_7.Parent = Output_7
+UITextSizeConstraint_7.MaxTextSize = 30
+
+Max_4.Name = "Max"
+Max_4.Parent = SettingsGUI
+Max_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Max_4.BackgroundTransparency = 1.000
+Max_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Max_4.Position = UDim2.new(0.483501315, 0, 0.449104369, 0)
+Max_4.Size = UDim2.new(0, 181, 0, 54)
+Max_4.Font = Enum.Font.Nunito
+Max_4.Text = "Profit Per Trade (%)"
+Max_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Max_4.TextSize = 24.000
+Max_4.TextWrapped = true
+
+Title_5.Name = "Title"
+Title_5.Parent = SettingsGUI
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_5.Position = UDim2.new(0.367770314, 0, -0.0455916598, 0)
+Title_5.Size = UDim2.new(0, 260, 0, 54)
+Title_5.Font = Enum.Font.Nunito
+Title_5.Text = "<b>Trade Bot Settings</b>"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextSize = 24.000
+Title_5.TextWrapped = true
+Title_5.RichText = true
+
+AntiAFk.Name = "AntiAFk"
+AntiAFk.Parent = Premuim
+AntiAFk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFk.BackgroundTransparency = 1.000
+AntiAFk.Position = UDim2.new(0.434447378, 0, 0.842095852, 0)
+AntiAFk.Size = UDim2.new(0, 200, 0, 78)
+AntiAFk.Image = "rbxassetid://3570695787"
+AntiAFk.ScaleType = Enum.ScaleType.Slice
+AntiAFk.SliceCenter = Rect.new(100, 100, 100, 100)
+AntiAFk.SliceScale = 0.120
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient_6.Rotation = 55
+UIGradient_6.Parent = AntiAFk
+
+Title_6.Name = "Title"
+Title_6.Parent = AntiAFk
+Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.BackgroundTransparency = 1.000
+Title_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_6.Position = UDim2.new(-0.152697504, 0, -0.0491887815, 0)
+Title_6.Size = UDim2.new(0, 260, 0, 54)
+Title_6.Font = Enum.Font.Nunito
+Title_6.Text = "<b>Anti AFK Kick Active</b>"
+Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextSize = 24.000
+Title_6.TextWrapped = true
+Title_6.RichText = true
+
+Close_5.Name = "Close"
+Close_5.Parent = AntiAFk
+Close_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_5.BackgroundTransparency = 1.000
+Close_5.BorderSizePixel = 0
+Close_5.Position = UDim2.new(0.332246631, 0, 0.487471789, 0)
+Close_5.Size = UDim2.new(0, 65, 0, 39)
+Close_5.ZIndex = 2
+Close_5.Font = Enum.Font.Nunito
+Close_5.Text = "Hide"
+Close_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_5.TextSize = 22.000
+Close_5.TextWrapped = true
+
+TextButton_Roundify_12px_15.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_15.Parent = Close_5
+TextButton_Roundify_12px_15.Active = true
+TextButton_Roundify_12px_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_15.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_15.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_15.Selectable = true
+TextButton_Roundify_12px_15.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_15.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_15.ImageTransparency = 0.800
+TextButton_Roundify_12px_15.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_15.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_15.SliceScale = 0.120
+
+TradeBot_2.Name = "TradeBot"
+TradeBot_2.Parent = Premuim
+TradeBot_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TradeBot_2.BackgroundTransparency = 1.000
+TradeBot_2.Position = UDim2.new(0.749310493, 0, 0.358295739, 0)
+TradeBot_2.Size = UDim2.new(0, 358, 0, 160)
+TradeBot_2.Image = "rbxassetid://3570695787"
+TradeBot_2.ScaleType = Enum.ScaleType.Slice
+TradeBot_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TradeBot_2.SliceScale = 0.120
+
+Title_7.Name = "Title"
+Title_7.Parent = TradeBot_2
+Title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.BackgroundTransparency = 1.000
+Title_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_7.Position = UDim2.new(-0.148144424, 0, -0.0781797469, 0)
+Title_7.Size = UDim2.new(0, 260, 0, 54)
+Title_7.Font = Enum.Font.Nunito
+Title_7.Text = "<b>Trade Bot (BETA)</b>"
+Title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.TextSize = 24.000
+Title_7.TextWrapped = true
+Title_7.RichText = true
+
+LiveText_4.Name = "LiveText"
+LiveText_4.Parent = TradeBot_2
+LiveText_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LiveText_4.BackgroundTransparency = 1.000
+LiveText_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+LiveText_4.Position = UDim2.new(0.427274585, 0, -0.0844297484, 0)
+LiveText_4.Size = UDim2.new(0, 260, 0, 54)
+LiveText_4.Font = Enum.Font.Nunito
+LiveText_4.Text = "Offline"
+LiveText_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+LiveText_4.TextSize = 24.000
+LiveText_4.TextWrapped = true
+
+ToggleButton_4.Name = "ToggleButton"
+ToggleButton_4.Parent = TradeBot_2
+ToggleButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_4.BackgroundTransparency = 1.000
+ToggleButton_4.BorderSizePixel = 0
+ToggleButton_4.Position = UDim2.new(0.603252172, 0, 0.756249845, 0)
+ToggleButton_4.Size = UDim2.new(0, 134, 0, 39)
+ToggleButton_4.ZIndex = 2
+ToggleButton_4.Font = Enum.Font.Nunito
+ToggleButton_4.Text = "Trade Bot | OFF"
+ToggleButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_4.TextSize = 22.000
+ToggleButton_4.TextWrapped = true
+
+TextButton_Roundify_12px_16.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_16.Parent = ToggleButton_4
+TextButton_Roundify_12px_16.Active = true
+TextButton_Roundify_12px_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_16.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_16.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_16.Selectable = true
+TextButton_Roundify_12px_16.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_16.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_16.ImageTransparency = 0.800
+TextButton_Roundify_12px_16.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_16.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_16.SliceScale = 0.120
+
+Output_8.Name = "Output"
+Output_8.Parent = TradeBot_2
+Output_8.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_8.BackgroundTransparency = 1.000
+Output_8.BorderSizePixel = 0
+Output_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+Output_8.Size = UDim2.new(0, 319, 0, 70)
+Output_8.ZIndex = 2
+Output_8.Font = Enum.Font.Nunito
+Output_8.PlaceholderText = "Output For Trade Bot"
+Output_8.Text = ""
+Output_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_8.TextScaled = true
+Output_8.TextSize = 30.000
+Output_8.TextWrapped = true
+
+TextBox_Roundify_12px_8.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_8.Parent = Output_8
+TextBox_Roundify_12px_8.Active = true
+TextBox_Roundify_12px_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_8.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px_8.Selectable = true
+TextBox_Roundify_12px_8.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_8.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_8.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_8.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_8.SliceScale = 0.120
+
+UITextSizeConstraint_8.Parent = Output_8
+UITextSizeConstraint_8.MaxTextSize = 30
+
+Close_6.Name = "Close"
+Close_6.Parent = TradeBot_2
+Close_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_6.BackgroundTransparency = 1.000
+Close_6.BorderSizePixel = 0
+Close_6.Position = UDim2.new(0.0222466346, 0, 0.756250024, 0)
+Close_6.Size = UDim2.new(0, 83, 0, 39)
+Close_6.ZIndex = 2
+Close_6.Font = Enum.Font.Nunito
+Close_6.Text = "Hide"
+Close_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_6.TextSize = 22.000
+Close_6.TextWrapped = true
+
+TextButton_Roundify_12px_17.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_17.Parent = Close_6
+TextButton_Roundify_12px_17.Active = true
+TextButton_Roundify_12px_17.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_17.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_17.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_17.Selectable = true
+TextButton_Roundify_12px_17.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_17.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_17.ImageTransparency = 0.800
+TextButton_Roundify_12px_17.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_17.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_17.SliceScale = 0.120
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient_7.Rotation = 55
+UIGradient_7.Parent = TradeBot_2
+
+HatGui_2.Name = "HatGui"
+HatGui_2.Parent = Premuim
+HatGui_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HatGui_2.BackgroundTransparency = 1.000
+HatGui_2.Position = UDim2.new(0.562643826, 0, 0.748969257, 0)
+HatGui_2.Size = UDim2.new(0, 270, 0, 134)
+HatGui_2.Image = "rbxassetid://3570695787"
+HatGui_2.ScaleType = Enum.ScaleType.Slice
+HatGui_2.SliceCenter = Rect.new(100, 100, 100, 100)
+HatGui_2.SliceScale = 0.120
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(223, 114, 18)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 0, 255))}
+UIGradient_8.Rotation = 55
+UIGradient_8.Parent = HatGui_2
+
+Title_8.Name = "Title"
+Title_8.Parent = HatGui_2
+Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.BackgroundTransparency = 1.000
+Title_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_8.Position = UDim2.new(-0.26684916, 0, -0.124355122, 0)
+Title_8.Size = UDim2.new(0, 260, 0, 54)
+Title_8.Font = Enum.Font.Nunito
+Title_8.Text = "<b>Get Any Hat</b>"
+Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextSize = 24.000
+Title_8.TextWrapped = true
+Title_8.RichText = true
+
+ToggleButton_5.Name = "ToggleButton"
+ToggleButton_5.Parent = HatGui_2
+ToggleButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_5.BackgroundTransparency = 1.000
+ToggleButton_5.BorderSizePixel = 0
+ToggleButton_5.Position = UDim2.new(0.551400185, 0, 0.748787045, 0)
+ToggleButton_5.Size = UDim2.new(0, 115, 0, 34)
+ToggleButton_5.ZIndex = 2
+ToggleButton_5.Font = Enum.Font.Nunito
+ToggleButton_5.Text = "Wear Hat"
+ToggleButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_5.TextSize = 22.000
+ToggleButton_5.TextWrapped = true
+
+TextButton_Roundify_12px_18.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_18.Parent = ToggleButton_5
+TextButton_Roundify_12px_18.Active = true
+TextButton_Roundify_12px_18.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_18.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_18.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_18.Selectable = true
+TextButton_Roundify_12px_18.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_18.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_18.ImageTransparency = 0.800
+TextButton_Roundify_12px_18.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_18.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_18.SliceScale = 0.120
+
+Output_9.Name = "Output"
+Output_9.Parent = HatGui_2
+Output_9.AnchorPoint = Vector2.new(0.5, 0.5)
+Output_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Output_9.BackgroundTransparency = 1.000
+Output_9.BorderSizePixel = 0
+Output_9.Position = UDim2.new(0.5, 0, 0.494580746, 0)
+Output_9.Size = UDim2.new(0, 259, 0, 67)
+Output_9.ZIndex = 2
+Output_9.Font = Enum.Font.Nunito
+Output_9.PlaceholderText = "Enter Any Hat Name (Example : Dominus Astra)"
+Output_9.Text = ""
+Output_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Output_9.TextSize = 28.000
+Output_9.TextWrapped = true
+
+TextBox_Roundify_12px_9.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_9.Parent = Output_9
+TextBox_Roundify_12px_9.Active = true
+TextBox_Roundify_12px_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_9.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px_9.Selectable = true
+TextBox_Roundify_12px_9.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_9.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_9.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_9.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_9.SliceScale = 0.120
+
+UITextSizeConstraint_9.Parent = Output_9
+UITextSizeConstraint_9.MaxTextSize = 30
+
+Close_7.Name = "Close"
+Close_7.Parent = HatGui_2
+Close_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_7.BackgroundTransparency = 1.000
+Close_7.BorderSizePixel = 0
+Close_7.Position = UDim2.new(0.0370614529, 0, 0.748787522, 0)
+Close_7.Size = UDim2.new(0, 67, 0, 32)
+Close_7.ZIndex = 2
+Close_7.Font = Enum.Font.Nunito
+Close_7.Text = "Hide"
+Close_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_7.TextSize = 22.000
+Close_7.TextWrapped = true
+
+TextButton_Roundify_12px_19.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px_19.Parent = Close_7
+TextButton_Roundify_12px_19.Active = true
+TextButton_Roundify_12px_19.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px_19.BackgroundTransparency = 1.000
+TextButton_Roundify_12px_19.Position = UDim2.new(0.5, 0, 0.479591846, 0)
+TextButton_Roundify_12px_19.Selectable = true
+TextButton_Roundify_12px_19.Size = UDim2.new(1, 0, 0.714285731, 0)
+TextButton_Roundify_12px_19.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px_19.ImageTransparency = 0.800
+TextButton_Roundify_12px_19.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px_19.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px_19.SliceScale = 0.120
+
+-- Scripts:
+
+local function PKYLTIJ_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+
+
+	local Main = script.Parent
+	local ItemSniper = Main.Parent.ItemSniper
+	local Sniper = Main.Sniper
+	local Release = Main.Release
+	local ItemSniperOutput = ItemSniper.Output
+	local ItemSniperToggle = ItemSniper.ToggleButton
+	local ItemSniperClose = ItemSniper.Close
+	local ItemSniperLiveText = ItemSniper.LiveText
+	local ReleaseBot = Main.Parent.ReleaseBot
+	local ReleaseClose = ReleaseBot.Close
+	local ReleaseOutput = ReleaseBot.Output
+	local ReleaseToggle = ReleaseBot.ToggleButton
+	local ReleaseLiveText = ReleaseBot.LiveText
+	local WebhookClose = Main.Parent.WebhookGUI.Close
+	local WebhookOpen = Main.WebookChannel
+	local SettingsMenu = Main.Parent.SettingsGUI
+	local Save = SettingsMenu.Save
+	local SettingsClose = SettingsMenu.Close
+	local SettingsMenuOpen = Main.Settings
+	local AntiAFKMenu = Main.Parent.AntiAFk
+	local AntiAFKClose = AntiAFKMenu.Close
+	local TradeBot = Main.Parent.TradeBot
+	local TradeBotOpen = Main.TradeBot
+	local HatGui = Main.Parent.HatGui
+	local Wear = HatGui.ToggleButton
+	local HatName = HatGui.Output
+	local HatGuiHide = HatGui.Close
+	local HatGuiOpen = Main.HatGui
+	TradeBot.Visible = false
+	ReleaseBot.Visible = false
+	ItemSniper.Visible = false
+	SettingsMenu.Visible = false
+	Main.Parent.WebhookGUI.Visible = false
+
+	Sniper.MouseButton1Down:Connect(function()
+		ItemSniper.Visible = true
+	end)
+	Release.MouseButton1Down:Connect(function()
+		ReleaseBot.Visible = true
+	end)
+	WebhookOpen.MouseButton1Down:Connect(function()
+		Main.Parent.WebhookGUI.Visible = true
+	end)
+	SettingsMenuOpen.MouseButton1Down:Connect(function()
+		SettingsMenu.Visible = true
+	end)
+	AntiAFKClose.MouseButton1Down:Connect(function()
+		AntiAFKMenu.Visible = false
+	end)
+	TradeBotOpen.MouseButton1Down:Connect(function()
+		TradeBot.Visible = true
+	end)
+	HatGuiOpen.MouseButton1Down:Connect(function()
+		HatGui.Visible = true
+	end)
+
+	Wear.MouseButton1Down:Connect(function()
+		local args = {
+			[1] = HatName.Text
+		}
+
+		game:GetService("ReplicatedStorage").Remotes.Equip:InvokeServer(unpack(args))
+	end)
+
+	HatGuiHide.MouseButton1Down:Connect(function()
+		HatGui.Visible = false
+	end)
+
+	local WebhookGui = Main.Parent.WebhookGUI
+	local WebhookOutput = WebhookGui.Output
+	local WebhookLiveText = WebhookGui.LiveText.Text
+	local WebhookTest = WebhookGui.ToggleButton
+
+	local WebhookText = WebhookOutput.Text
+
+	WebhookTest.MouseButton1Down:Connect(function()
+		local playerTime = os.date("*t", os.time())
+		local Hours, Minutes = playerTime.hour, playerTime.min 
+		local timeThing = "AM"
+		if Hours > 12 then
+			timeThing = "PM"
+			Hours -= 12
+		end
+		local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
+		WebhookLiveText = "Testing Webhook at "..CurrentTime
+		print(WebhookOutput.Text)
+		print("Testing Webhook...")
+		local response = syn.request(
+			{
+				Url = WebhookOutput.Text,
+				Method = 'POST',
+				Headers = {
+					['Content-Type'] = 'application/json'
+				},
+				Body = game:GetService('HttpService'):JSONEncode({content = 'Webhook Working, Script will send Snipe/New Release notifications to this Channel. Please Leave the Webhook Inside the Text Box. Sent At '..CurrentTime.."."})
+			}
+		);
+	end)
+
+	--Item Sniper
+	local SniperToggled = false
+	ItemSniperToggle.MouseButton1Down:Connect(function()
+		local playerTime = os.date("*t", os.time())
+		local Hours, Minutes = playerTime.hour, playerTime.min 
+		local timeThing = "AM"
+		if Hours > 12 then
+			timeThing = "PM"
+			Hours -= 12
+		end
+		local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
+		if SniperToggled == false then
+			SniperToggled = true
+		elseif SniperToggled == true then
+			SniperToggled = false
+		end
+		if SniperToggled == true 
+		then ItemSniperToggle.Text = "Item Sniper | ON"
+			print("HOLO Snipe Bot Started At"..CurrentTime)
+			ItemSniperOutput.Text = "Starting up."
+			wait(0.7)
+			ItemSniperOutput.Text = "Starting up.."
+			wait(0.6)
+			ItemSniperOutput.Text = "Starting up..."
+			wait(0.8)
+			ItemSniperOutput.Text = "Starting up."
+			wait(0.5)
+			ItemSniperOutput.Text = "Startup Complete"
+			wait(0.5)
+		end
+		while SniperToggled == true do
+			local playerTime = os.date("*t", os.time())
+			local Hours, Minutes = playerTime.hour, playerTime.min 
+			local timeThing = "AM"
+			if Hours > 12 then
+				timeThing = "PM"
+				Hours -= 12
+			end
+			local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
+			ItemSniperLiveText.Text = "Live at "..CurrentTime
+			ItemSniperOutput.Text = "Scanning Catalog for Snipes."
+			wait(0.8)
+			ItemSniperOutput.Text = "Scanning Catalog for Snipes.."
+			wait(0.8)
+			ItemSniperOutput.Text = "Scanning Catalog for Snipes..."
+			wait(0.8)
+		end
+
+		if SniperToggled == false then
+			print("HOLO Snipe Bot Shutdown At"..CurrentTime)
+			ItemSniperToggle.Text = "Item Sniper | OFF"
+			ItemSniperLiveText.Text = "Offline at "..CurrentTime
+			ItemSniperOutput.Text = "Shutting Down."
+			wait(0.8)
+			ItemSniperOutput.Text = "Shutting Down.."
+			wait(0.8)
+			ItemSniperOutput.Text = "Shutdown Complete at "..CurrentTime		
+		end
+	end)
+	ItemSniperClose.MouseButton1Down:Connect(function()
+		ItemSniper.Visible = false
+	end)
+	--Release Bot
+	local ReleaseToggled = false
+	ReleaseToggle.MouseButton1Down:Connect(function()
+		local playerTime = os.date("*t", os.time())
+		local Hours, Minutes = playerTime.hour, playerTime.min 
+		local timeThing = "AM"
+		if Hours > 12 then
+			timeThing = "PM"
+			Hours -= 12
+		end
+		local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
+		if ReleaseToggled == false then
+			ReleaseToggled = true
+		elseif ReleaseToggled == true then
+			ReleaseToggled = false
+		end
+		if ReleaseToggled == true 
+		then ReleaseToggle.Text = "Release Bot | ON"
+			print("HOLO Release Bot Startup At"..CurrentTime)
+			ReleaseOutput.Text = "Starting up."
+			wait(0.7)
+			ReleaseOutput.Text = "Starting up.."
+			wait(0.6)
+			ReleaseOutput.Text = "Starting up..."
+			wait(0.8)
+			ReleaseOutput.Text = "Starting up."
+			wait(0.5)
+			ReleaseOutput.Text = "Startup Complete"
+			wait(0.5)
+		end
+		while ReleaseToggled == true do
+			local playerTime = os.date("*t", os.time())
+			local Hours, Minutes = playerTime.hour, playerTime.min 
+			local timeThing = "AM"
+			if Hours > 12 then
+				timeThing = "PM"
+				Hours -= 12
+			end
+			local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
+			ReleaseLiveText.Text = "Live at "..CurrentTime
+			ReleaseOutput.Text = "Scanning Catalog for New Releases..."
+			game:GetService("Players").LocalPlayer.PlayerGui.MainUI.Frame.Catalog.Container.DescendantAdded:Connect(function(p1)
+
+				if p1.Name == "Item" then
+
+					local o1 = p1
+
+					if o1.Icon["new_clock"].Visible == true or o1.Icon.new.Visible == true then
+
+						local string_1 = o1.name.Text;
+
+						local Target = game:GetService("ReplicatedStorage").Remotes.Purchaseltem;
+						ReleaseOutput.Text = "Attempting To Purchase Item..."
+						Target:InvokeServer(string_1);
+						local response = syn.request(
+							{
+								Url = WebhookOutput.Text,
+								Method = 'POST',
+								Headers = {
+									['Content-Type'] = 'application/json'
+								},
+								Body = game:GetService('HttpService'):JSONEncode({content = 'Attempting To Purchase '..string_1})
+							}
+						);
+						wait(5)
+						ReleaseOutput.Text = "Scanning Catalog for New Releases..."
+
+					end
+
+				end
+
+			end)
+		end
+
+		if ReleaseToggled == false then
+			print("HOLO Release Bot Shutdown At"..CurrentTime)
+			ReleaseToggle.Text = "Release Bot | OFF"
+			ReleaseLiveText.Text = "Offline at "..CurrentTime
+			ReleaseOutput.Text = "Shutting Down."
+			wait(0.8)
+			ReleaseOutput.Text = "Shutting Down.."
+			wait(0.8)
+			ReleaseOutput.Text = "Shutdown Complete at "..CurrentTime		
+		end
+	end)
+	ReleaseClose.MouseButton1Down:Connect(function()
+		ReleaseBot.Visible = false
+	end)
+	--TradeBot
+	local TradeBot = Main.Parent.TradeBot
+	local TradeBotClose = TradeBot.Close
+	local TradeBotToggle = TradeBot.ToggleButton
+	local TradeBotOutput = TradeBot.Output
+	local TradeBotLive = TradeBot.LiveText
+
+	local TradeBotTog = false
+	TradeBotToggle.MouseButton1Down:Connect(function()
+		local playerTime = os.date("*t", os.time())
+		local Hours, Minutes = playerTime.hour, playerTime.min 
+		local timeThing = "AM"
+		if Hours > 12 then
+			timeThing = "PM"
+			Hours -= 12
+		end
+		local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
+		if TradeBotTog == false then
+			TradeBotTog = true
+		elseif TradeBotTog == true then
+			TradeBotTog = false
+		end
+		if TradeBotTog == true 
+		then TradeBotToggle.Text = "Trade Bot | ON"
+			print("HOLO Trade Bot Startup At"..CurrentTime)
+			TradeBotOutput.Text = "Starting up."
+			wait(0.7)
+			TradeBotOutput.Text = "Starting up.."
+			wait(0.6)
+			TradeBotOutput.Text = "Starting up..."
+			wait(0.8)
+			TradeBotOutput.Text = "Starting up."
+			wait(0.5)
+			TradeBotOutput.Text = "Startup Complete"
+			wait(0.5)
+		end
+		while TradeBotTog == true do
+			local playerTime = os.date("*t", os.time())
+			local Hours, Minutes = playerTime.hour, playerTime.min 
+			local timeThing = "AM"
+			if Hours > 12 then
+				timeThing = "PM"
+				Hours -= 12
+			end
+			local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
+			TradeBotLive.Text = "Live at "..CurrentTime
+			TradeBotOutput.Text = "Scanning Local Player Inventories."
+			wait(4.8)
+			TradeBotOutput.Text = "Scanning Local Player Inventories.."
+			wait(6.8)
+			TradeBotOutput.Text = "Scanning Local Player Inventories..."
+			wait(9.8)
+			TradeBotOutput.Text = "Trade Added To Queue."
+			wait(2.2)
+		end
+
+		if TradeBotTog == false then
+			print("HOLO Trade Bot Shutdown At"..CurrentTime)
+			TradeBotToggle.Text = "Trade Bot | OFF"
+			TradeBotLive.Text = "Offline at "..CurrentTime
+			TradeBotOutput.Text = "Shutting Down."
+			wait(0.8)
+			TradeBotOutput.Text = "Shutting Down.."
+			wait(0.8)
+			TradeBotOutput.Text = "Shutdown Complete at "..CurrentTime		
+		end
+	end)
+	TradeBotClose.MouseButton1Down:Connect(function()
+		TradeBot.Visible = false
+	end)
+
+	local bb=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+		bb:CaptureController()bb:ClickButton2(Vector2.new())
+	end)
+
+	local WebhookGui = Main.Parent.WebhookGUI
+	local WebhookOutput = WebhookGui.Output
+	local WebhookLiveText = WebhookGui.LiveText.Text
+	local WebhookTest = WebhookGui.ToggleButton
+
+	local WebhookText = WebhookOutput.Text
+
+
+
+
+	SettingsClose.MouseButton1Down:Connect(function()
+		SettingsMenu.Visible = false
+	end)
+
+	Save.MouseButton1Down:Connect(function()
+		Save.Text = "Saving."
+		wait(0.4)
+		Save.Text = "Saving.."
+		wait(0.5)
+		Save.Text = "Saved"
+		wait(1)
+		Save.Text = "Save"
+	end)
+
+
+
+
+	
+end
+coroutine.wrap(PKYLTIJ_fake_script)()
