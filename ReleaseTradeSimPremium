@@ -1545,7 +1545,7 @@ local function PKYLTIJ_fake_script() -- Main.LocalScript
 								Body = game:GetService('HttpService'):JSONEncode({content = 'Attempting To Purchase '..string_1})
 							}
 						);
-						wait(5)
+						wait(15)
 						ReleaseOutput.Text = "Scanning Catalog for New Releases..."
 
 					end
