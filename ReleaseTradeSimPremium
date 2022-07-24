@@ -1522,6 +1522,7 @@ local function PKYLTIJ_fake_script() -- Main.LocalScript
 			local CurrentTime = string.format("%d:%02d %s",Hours,Minutes,timeThing)
 			ReleaseLiveText.Text = "Live at "..CurrentTime
 			ReleaseOutput.Text = "Scanning Catalog for New Releases..."
+			wait(0.8)
 			game:GetService("Players").LocalPlayer.PlayerGui.MainUI.Frame.Catalog.Container.DescendantAdded:Connect(function(p1)
 
 				if p1.Name == "Item" then
