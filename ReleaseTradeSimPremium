@@ -1528,7 +1528,7 @@ local function PKYLTIJ_fake_script() -- Main.LocalScript
 				if p1.Name == "Item" then
 
 					local o1 = p1
-
+                    wait(1)
 					if o1.Icon["new_clock"].Visible == true or o1.Icon.new.Visible == true then
 
 						local string_1 = o1.name.Text;
@@ -1536,6 +1536,7 @@ local function PKYLTIJ_fake_script() -- Main.LocalScript
 						local Target = game:GetService("ReplicatedStorage").Remotes.Purchaseltem;
 						ReleaseOutput.Text = "Attempting To Purchase Item..."
 						Target:InvokeServer(string_1);
+						wait(15)
 						local response = syn.request(
 							{
 								Url = WebhookOutput.Text,
